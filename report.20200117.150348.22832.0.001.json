@@ -1,0 +1,460 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200117.150348.22832.0.001.json",
+    "dumpEventTime": "2020-01-17T15:03:48Z",
+    "dumpEventTimeStamp": "1579291428881",
+    "processId": 22832,
+    "cwd": "c:\\Users\\Eddy\\Google Drive\\2020\\cours\\640\\application_quiz",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Eddy\\AppData\\Roaming\\npm\\\\node_modules\\gulp\\bin\\gulp.js",
+      "--version"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17763",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD A10-5700 APU with Radeon(tm) HD Graphics   ",
+        "speed": 3394,
+        "user": 20583453,
+        "nice": 0,
+        "sys": 10735734,
+        "idle": 45152875,
+        "irq": 490906
+      },
+      {
+        "model": "AMD A10-5700 APU with Radeon(tm) HD Graphics   ",
+        "speed": 3394,
+        "user": 16789562,
+        "nice": 0,
+        "sys": 7789312,
+        "idle": 51892906,
+        "irq": 89625
+      },
+      {
+        "model": "AMD A10-5700 APU with Radeon(tm) HD Graphics   ",
+        "speed": 3394,
+        "user": 20539625,
+        "nice": 0,
+        "sys": 7927359,
+        "idle": 48004796,
+        "irq": 53281
+      },
+      {
+        "model": "AMD A10-5700 APU with Radeon(tm) HD Graphics   ",
+        "speed": 3394,
+        "user": 24538609,
+        "nice": 0,
+        "sys": 8196250,
+        "idle": 43736906,
+        "irq": 98718
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "9c:2a:70:13:20:19",
+        "address": "fe80::3820:c7c:2d5e:9c6b",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "9c:2a:70:13:20:19",
+        "address": "192.168.2.26",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "Edyy_PC"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7d18d1729",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d18d5b4c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d18d4b08",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d19c369b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d21c82de",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d21b0321",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d207dbec",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d2085cf1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d207b353",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d2079b24",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d209adf5",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d1e06e19",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d25f404d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d2634e9d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d2573bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d256cf8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d2573bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d2573bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d2573bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d2573bdc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d2571191",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d2570d7c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d20d62d3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d20d5c56",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d21a6ecb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d19e9dde",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d19ea087",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d19e8f5a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d198ba95",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d19e9a73",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d18a667c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d26a7138",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffd0b577974",
+      "symbol": "BaseThreadInitThunk+20"
+    },
+    {
+      "pc": "0x00007ffd0c50a271",
+      "symbol": "RtlUserThreadStart+33"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 3162112,
+    "totalCommittedMemory": 3162112,
+    "usedMemory": 2416560,
+    "availableMemory": 2195934064,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047488,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 1159168,
+        "committedMemory": 1159168,
+        "capacity": 944368,
+        "used": 940552,
+        "available": 3816
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 152064,
+        "used": 152064,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 244160,
+        "used": 244160,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 0.14,
+    "kernelCpuSeconds": 0.093,
+    "cpuConsumptionPercent": 23.3,
+    "maxRss": 33611776,
+    "pageFaults": {
+      "IORequired": 8385,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 97
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "c:\\Users\\Eddy\\Google Drive\\2020\\cours\\640\\application_quiz",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "AMDAPPSDKROOT": "C:\\Program Files (x86)\\AMD APP\\",
+    "AMD_ENTRYPOINT": "vs/workbench/services/extensions/node/extensionHostProcess",
+    "APPDATA": "C:\\Users\\Eddy\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "asl.log": "Destination=file",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132226382550096244",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "EDYY_PC",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "FP_NO_HOST_CHECK": "NO",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Eddy",
+    "LOCALAPPDATA": "C:\\Users\\Eddy\\AppData\\Local",
+    "LOGONSERVER": "\\\\EDYY_PC",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Eddy\\OneDrive",
+    "OnlineServices": "Online Services",
+    "OS": "Windows_NT",
+    "Path": "C:\\Python27\\;C:\\Python27\\Scripts;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\Eddy\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Eddy\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\Eddy\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Eddy\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PIPE_LOGGING": "true",
+    "Platform": "HPD",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "21",
+    "PROCESSOR_REVISION": "1001",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Eddy\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Eddy\\AppData\\Local\\Temp",
+    "USERDOMAIN": "Edyy_PC",
+    "USERDOMAIN_ROAMINGPROFILE": "Edyy_PC",
+    "USERNAME": "Eddy",
+    "USERPROFILE": "C:\\Users\\Eddy",
+    "VERBOSE_LOGGING": "true",
+    "VSCODE_CWD": "C:\\Program Files\\Microsoft VS Code",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_IPC_HOOK": "\\\\.\\pipe\\e1be7ca992f46a597060996e7fd7a9fe-1.41.1-main-sock",
+    "VSCODE_IPC_HOOK_EXTHOST": "\\\\.\\pipe\\vscode-ipc-3885ed21-c6a5-4d06-af2e-5ff3925a5c49-sock",
+    "VSCODE_LOGS": "C:\\Users\\Eddy\\AppData\\Roaming\\Code\\logs\\20200117T150340",
+    "VSCODE_LOG_STACK": "false",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"fr\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+    "VSCODE_NODE_CACHED_DATA_DIR": "C:\\Users\\Eddy\\AppData\\Roaming\\Code\\CachedData\\26076a4de974ead31f97692a0d32f90d735645c0",
+    "VSCODE_PID": "22224",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}

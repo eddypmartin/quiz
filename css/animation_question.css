@@ -1,0 +1,68 @@
+
+
+@keyframes animTitreQuestion {
+    from {
+        transform: translateY(100vh);
+    }
+
+    100% {
+        transform: translateY(0vh);
+    }
+}
+
+
+
+
+
+@keyframes animReponseDroite
+{
+    from {
+        transform : translateX(100vw)  
+    }
+    to {
+        transform : translateX(0vw)
+    }
+}
+
+@keyframes animReponseGauche {
+    from {
+        transform: translateX(-100vw)
+    }
+
+    to {
+        transform: translateX(0vw)
+    }
+}
+
+@keyframes  animeSortieQuestion{
+0%{
+    transform : translateX(0);
+}
+
+100%{
+    transform : translateX(-100vw);
+}
+
+}
+
+@keyframes animePrecedenteQuestion {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100vw);
+    }
+
+}
+
+@keyframes animCheck {
+    0% {
+        transform : translateX(0);
+    }
+
+    100% {
+        transform : translateX(4vw);
+    }
+
+}

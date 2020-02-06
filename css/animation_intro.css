@@ -1,0 +1,259 @@
+@keyframes tomberEtTournerMot {
+	from {
+		opacity: 1;
+		transform: scale(1) translateY(-50vh) translateX(100vw) rotate(-270deg);
+	}
+
+	40% {
+		opacity: 1;
+		transform: scale(1) translateY(0vh) translateX(0vw) rotate(-270deg);
+	}
+
+	90% {
+		opacity: 1;
+		transform: rotate(-370deg);
+	}
+
+	95% {
+		opacity: 1;
+		transform: rotate(-355deg);
+	}
+
+
+	to {
+		opacity: 1;
+		transform: scale(1) translateY(0vh) translateX(0vw) rotate(-360deg);
+	}
+}
+
+.tomberEtTournerMot {
+
+	transform-origin: 100% 0%;
+	animation: tomberEtTournerMot 2s forwards;
+}
+
+/* Les autres mots qu'on anime avec steps() */
+
+.mot1 {
+	opacity: 1 !important;
+	color: #fff;
+	font-size: 3rem;
+}
+
+.mot1::before {
+	content: "";
+	position: absolute;
+	background-color: rgb(119, 152, 96);
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	color: #fff;
+}
+
+@keyframes ecrireMot {
+	from {
+		opacity: 1;
+		left: 0%;
+	}
+
+	to {
+		opacity: 1;
+		left: 100%;
+	}
+}
+
+.mot1::before {
+	/*  Animation par saut (step) */
+
+	animation: ecrireMot 3s steps(10, end) both;
+}
+
+@keyframes animeElastique {
+	from {
+		opacity: .5;
+		transform: scale(1, 1);
+	}
+
+	25% {
+		transform: scale(2, .5);
+	}
+
+	50% {
+		transform: scale(.7, 1.5);
+	}
+
+	75% {
+		transform: scale(1.4, .8);
+	}
+
+	to {
+		opacity: 1;
+		transform: scale(1, 1);
+	}
+
+}
+
+.animeElastique,
+.animeChute {
+	opacity: 0;
+	color: #fff;
+	font-size: 3rem;
+}
+
+.animeElastique {
+
+	animation: animeElastique 2s 3s forwards;
+}
+
+@keyframes animeChute {
+	from {
+		opacity: .5;
+		transform: translateY(-100vh);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0vh);
+	}
+}
+
+.animeChute {
+
+	animation: animeChute 3s 1s forwards;
+}
+
+
+/* Animation d'un caractère en chute libre */
+
+.animGrandeChute {
+	opacity: 1;
+	animation: animGrandeChute 5s both;
+}
+
+/*
+
+@keyframes animGrandeChute {
+	from {
+		opacity: 1;
+		transform: translateY(-100vh) rotate(90deg) scale(.5);
+	}
+
+	20% {
+		transform: translateY(-80vh) rotate(-70deg) scale(2);
+	}
+
+	40% {
+		transform: translateY(-60vh) rotate(50deg) scale(3);
+	}
+
+	60% {
+		transform: translateY(-40vh) rotate(-30deg) scale(2);
+	}
+
+	80% {
+		transform: translateY(-20vh) rotate(10deg) scale(1);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0vh) translateY(0vh) rotate(0deg) scale(1);
+	}
+
+}
+
+*/
+
+/* 
+	????????????????????????????????????????????????????????????????
+	????????????????????????????????????????????????????????????????
+
+	Question 2 (1 point)
+	Compléter la règle de style définissant l'animation 
+	par 3 étapes de keyframes: 0%,50% et 100%.
+	Il s'agit d'animer un caractère qui tombe de la droite, revient au centre et qui tourne 
+	
+	*/
+
+@keyframes animGrandeChute {
+	from {
+		opacity: 1;
+		transform: translateY(-100vh) translateX(70vh) rotate(90deg);
+	}
+
+	50% {
+		opacity: 1;
+		transform: translateY(0vh) translateX(70vh) rotate(-90deg);
+	}
+
+
+	to {
+		opacity: 1;
+		transform: translateY(0vh) translateX(0vh) rotate(0deg);
+	}
+}
+
+/* 
+	????????????????????????????????????????????????????????????????
+	????????????????????????????????????????????????????????????????
+
+	Question 3 (2 point)
+	Compléter la règle de style définissant l'animation 
+	par 5 étapes de keyframes.
+	Il s'agit d'animer un caractère qui dance 
+	en soutillant et en tournant 
+	
+*/
+
+@keyframes animPetitSaut {
+	from {
+		transform: translateY(0vh) rotate(0deg);
+	}
+
+	25% {
+		transform: translateY(-2vh) rotate(20deg);
+	}
+
+	50% {
+		transform: translateY(-4vh) rotate(-20deg);
+	}
+
+	75% {
+		transform: translateY(-6vh) rotate(20deg);
+	}
+
+	to {
+		transform: translateY(-8vh) rotate(-20deg);
+	}
+}
+
+.animeElastique2 {
+	animation : animeElastique2 2s 20 alternate;
+}
+
+
+
+@keyframes animeElastique2 {
+	from {
+
+		transform: scale(1, 1);
+	}
+
+	25% {
+		transform: scale(1, 1.2);
+	}
+
+	50% {
+		transform: scale(.8, 1.5);
+	}
+
+	75% {
+		transform: scale(.7, 1.8);
+	}
+
+	to {
+
+		transform: scale(.4, 2.5);
+	}
+
+}
